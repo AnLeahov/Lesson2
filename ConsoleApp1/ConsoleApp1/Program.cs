@@ -20,6 +20,7 @@ namespace lesson2
             Console.WriteLine("SQRT=");
             Console.WriteLine(koren);
             Console.Read();
+            Console.WriteLine("THE Profesional DAY!!!");
         }
 
         //static void Main()
