@@ -6,21 +6,21 @@ namespace lesson2
     {
         static void Main()
         {
-            Console.WriteLine("Enter number");
-
+            Console.Write("Enter number : ");
+            //string name = Console.ReadLine();
             var line = Console.ReadLine();
 
-            Console.WriteLine("You entered");
+            Console.Write("You entered : ");
             Console.WriteLine(line);
 
             var line_double = double.Parse(line);
 
             var koren = Math.Sqrt(line_double);
 
-            Console.WriteLine("SQRT=");
+            Console.Write("SQRT= ");
             Console.WriteLine(koren);
-            Console.Read();
-            Console.WriteLine("THE Profesional DAY!!!");
+            Console.ReadKey();
+            Console.WriteLine("THE Profesional DAY!!! ");
         }
 
         //static void Main()
